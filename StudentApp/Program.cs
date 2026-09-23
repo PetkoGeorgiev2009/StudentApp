@@ -1,2 +1,4 @@
-﻿// See https://aka.ms/new-console-template for more information
-Console.WriteLine("Hello, World!");
+﻿using StudentApp;
+
+Student student = new Student("Ivan", 17);
+student.PrintInfo();
